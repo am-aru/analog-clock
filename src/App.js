@@ -12,7 +12,7 @@ useEffect(()=>{
 })
 
   return (
-    <div style={{backgroundColor :'pink' , display : 'inline-block' , top : '50%' , left : '50%' , transform : 'translate(-50%,-50%' , position :'center',padding:'12vh', position : 'absolute'}}>
+    <div style={{ display : 'inline-block' , top : '50%' , left : '50%' , transform : 'translate(-50%,-50%' , position :'center',padding:'12vh', position : 'absolute'}}>
       <h1 style={{paddingLeft:'8vh' , paddingBottom :'5vh'}}> React Clock 🕰️ </h1>
       <Clock value={time} size={300} renderNumbers = {true}/>
     </div>
